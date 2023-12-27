@@ -1,6 +1,5 @@
 # .gitignore file
 __pycache__/
 data/
-notebooks/
 .venv/
 images/
