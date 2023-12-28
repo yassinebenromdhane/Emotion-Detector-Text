@@ -65,6 +65,3 @@ jobs:
           app-name: 'emotion-recognition-text'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4B38C3B338954CCE93A7C6293CE6C84E }}
-
-      - name: Run Streamlit app
-        run: streamlit run app.py
